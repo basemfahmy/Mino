@@ -1,0 +1,262 @@
+/*start my framework*/
+body{font-family: 'Farro', sans-serif; }
+.container{max-width: 1170px; }
+h2{font-size: 30px; font-weight: bold; text-transform: capitalize;color:#0a183d}
+h3{font-size: 16px; font-weight: bold; text-transform: capitalize;color:#0a183d}
+p{font-size: 14px; font-weight: normal;text-transform: capitalize; color: #6a7080}
+.main-box{padding: 50px 0px 50px 0px; text-align:center; } 
+.my-button{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: bold;
+    outline: none;
+    border-radius: 11px
+}
+.my-button:hover{ 
+    background-color: white;
+    transition: all 0.3s ease;
+    text-decoration: none; 
+}
+
+/*end my framework*/
+
+/*navbar*/
+.bg-light{
+    background-color: #08192d !important; 
+    padding: 13px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.navbar-light .navbar-nav .nav-link { 
+    margin-right: 20px; 
+    text-transform: capitalize;
+    color: white;
+}  
+.navbar-light .navbar-nav .nav-link:hover {
+transition: all 0.3s ease
+}
+.navbar-light .navbar-nav .nav-link:focus{
+    color: white;
+}
+
+.navbar-light .navbar-brand {font-size: 30px;}
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus{
+    outline: none
+}
+ 
+.navbar-light .navbar-toggler {
+    outline: none;
+}
+.navbar-light .navbar-toggler i{ font-size: 25px; }
+/*navbar*/
+
+/*start go up button*/
+.go-up{
+     position: fixed;
+    z-index: 55;
+    bottom: 30px;
+    right: 25px;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    font-size: 20px;
+     border-radius: 11px;
+    display: none;
+}
+.go-up:hover,.go-up:focus{    outline: none;}
+/*end go up button*/
+
+/* header*/
+.header{
+    background-color: #0a183d;
+    width: 100%;
+    height: 750px;
+}
+.header .info{margin-top: 145px}
+.header .info h2{font-size: 45px ;color: white; line-height: 60px}
+.header .info p{
+    color: white; 
+    line-height: 30px; 
+    margin: 35px 0px 35px 0px;
+    width: 90%;
+}
+.header .my-button{margin-right:15px;}
+.header .button2{
+    background-color: #383b70;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: bold;
+    outline: none;
+    border-radius: 11px;
+}
+.header .button2:hover{
+    background-color: white;
+    color: #383b70;
+    transition: all 0.3s ease;
+}
+.header .image img{
+    width: 60%;
+    margin-top: 211px; 
+    z-index: 1; 
+    position: relative;
+}
+/* header*/
+
+/*services*/
+.services {
+    padding-top: 240px;
+    background-image: url(../images/cloud-background.png);
+    margin-top: -200px;
+    z-index: 2;
+    position: relative;
+    height: 750px;   
+}
+.services .main-p{
+     width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.services .serv{
+    margin-top: 50px;
+    border-radius: 11px;
+    padding: 30px 13px 20px 13px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 0px 3px 0px rgba(0, 0, 0, 0.19);
+   cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.services .serv h3{ margin-bottom: 17px;}
+.services .serv p{text-transform: none; line-height: 23px; font-size: 12px;}
+.services .serv img{ width: 24%;margin-bottom: 15px;}
+/*services*/
+
+
+/*features*/
+.features{background-color: #0a193d}
+.features .feat{ margin-bottom: 55px}
+.features .feat h2{color: white}
+.features .info{text-align: left;margin-top: 67px;}
+.features .info p{margin: 30px 0px 30px 0px; line-height: 30px; width: 80%; color: white}
+
+/*features*/
+
+/*feedback*/
+.feedback{
+    background-color:#F7F7F7;
+    padding: 0px 0px 0px 0px;
+    padding-bottom: 175px;
+    padding-top: 55px;
+}
+.feedback h2{margin-bottom: 30px;}
+.feedback p{width: 70%; margin: auto; line-height: 30px}
+.feedback h3{margin-top: 20px; margin-bottom: 20px;}
+.feedback .carousel-indicators{top:162px;}
+.feedback .carousel-indicators li {
+    background-color:transparent;
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.4;
+}
+.feedback .carousel-indicators li.active{opacity: 1}
+.feedback .carousel-indicators li img{   
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+     border-radius: 50%;
+}
+.carousel-control-prev,.carousel-control-next{display: none;}
+/*feedback*/
+
+/*download*/
+.download{
+    background-color: #0a183d;
+    width: 100%;
+    height: 480px; 
+}
+.download h2 ,.download p{color: white}
+.download .phone img {width: 45%; margin-top: 73px; margin-left: 140px;}
+.download .info{text-align: left;margin-top: 67px;}
+.download .info p{margin: 30px 0px 30px 0px; line-height: 30px; width: 90%}
+/*download*/
+
+/*contact*/
+.contact{    background: white;}
+.contact h2{margin-bottom: 60px}
+.contact .form-group{position: relative;} 
+.contact .risk{
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    right: 25px;
+    top: 13px;
+    display: none;
+} 
+.contact .form-control {
+ 
+    border-radius: 8px;
+     padding: 24px;
+    margin-bottom: 30px;
+    outline: none;
+}
+.form-control::placeholder ,.contact .message::placeholder{
+    color: #6a7080;
+    text-transform: capitalize;
+}
+.contact .message{ padding-bottom: 200px;}
+
+.contact .form-control:focus {
+
+  border-color: #ced4da;
+  box-shadow: none;
+}
+.contact .message{
+    width: 100%;
+       border-radius: 8px;
+     padding: 24px;
+    padding-bottom: 120px;
+    margin-bottom: 15px;
+    resize: none;
+    color: #495057;
+    border: 1px solid #ced4da;
+    outline: none;
+}
+.contact button{   
+    padding: 16px;
+    width: 200px;
+    margin: auto;
+    color: white;    
+}
+.contact button:hover{
+    transition: all 0.3s ease; 
+    background-color: white;
+}
+.contact button:focus{outline: none;}
+
+/*contact*/
+
+/*footer*/
+.footer{
+    background-color: #08192d ;
+   padding-top: 40px;
+    padding-bottom: 15px;
+    margin-bottom: -51px;
+}
+.footer p{color: white; text-align: left}
+.footer .icons{text-align: right;}
+.footer .icons a{color: white; }
+.footer .icons a i{font-size: 20px; margin-right: 15px; margin-top: 0px}
+.footer .icons a i:hover{
+    transition: all 0.3s ease;
+}
+/*footer*/
